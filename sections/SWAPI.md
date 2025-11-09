@@ -3,7 +3,7 @@
 At its core, whenever we make any request to an API, we are performing a Hypertext Transfer Protocol (HTTP) request method: making a call to a web address and asking it permission to do something, like **POST** new information to the location or **DELETE** an item stored there. Most frequently, we are wanting to (and only have permission to!) **GET** information from the location. In our earlier example of the art museum API, when you make an API request to "Please give me the artist name, date of creation, genre, filename, and download link for all paintings made in France between 1860 and 1890," you are making a GET request.  
 
 
-Perhaps the simplest way to make a request to a public API is to use your web browser. This requires you to correctly construct a web address that corresponds to what you want to receive from the API. If the information provided by the API is metadata (for example, that information about the 19th century paintings), it may show up in your browser as XML or JSON, both formats for storing structured data. Before we look at an API in-browser, let's use a test environment to get a sense of what JSON looks like.  
+Perhaps the simplest way to make a request to a public API is to use your web browser. This requires you to correctly construct a web address that corresponds to what you want to receive from the API. Typically, you will figure out how to construct this address by looking into the API's documentation. If the data returned by the API after a success request is metadata (for example, that information about the 19th century paintings), it may show up in your browser as XML or JSON, both formats for storing structured data. Before we look at an API in-browser, let's use a test environment to get a sense of what JSON looks like.  
 
 ## The Star Wars API
 
@@ -18,7 +18,7 @@ When we head to one of these endpoints in our browser, either by clicking the hy
 
 ## JSON
 
-JSON, or JavaScript Object Notation, is "a lightweight format for storing and transporting data," as defined by [W3Schools](https://www.w3schools.com/whatis/whatis_json.asp). In JSON, data for a given object (for example, an author) is contained within curly brackets (`{}`) is provided in key:value pairs. A single object might have any number of key:value pairs associated with or describing it. A given key (`booksWritten`) might have multiple values, which will be provided in an **array**, or a list of values, encased in square brackets (`[]`). A list of multiple objects is also presented as an array:
+JSON, or JavaScript Object Notation, is "a lightweight format for storing and transporting data," as defined by [W3Schools](https://www.w3schools.com/whatis/whatis_json.asp). In JSON, data for a given object (for example, an author) is contained within curly brackets (`{}`) and is provided in key:value pairs. A single object might have any number of key:value pairs associated with or describing it. A given key (`booksWritten`) might have multiple values, which will be provided in an **array**, or a list of values, encased in square brackets (`[]`). A list of multiple objects is also presented as an array:
 
     {
         "authors": [
@@ -47,3 +47,9 @@ JSON, or JavaScript Object Notation, is "a lightweight format for storing and tr
             }
         ]
     }
+
+## Dictionary API
+
+Now that we know how JSON works, let's make another API call in-browser. We'll use [Dictionary API](https://dictionaryapi.dev/), a free API that pulls from Wikimedia and Wiktionary to provide dictionary and pronunciation information. To make a GET request, we need to structure a URL following this template: `https://api.dictionaryapi.dev/api/v2/entries/en/<word>`. Feel free to try it yourself by copying and pasting that address and replacing `<word>` with whatever word you would like to look up. When your result loads, click on the `Pretty-print` box to format the JSON for better readability.
+
+>**EXAMPLE REQUEST**: [haberdashery](https://api.dictionaryapi.dev/api/v2/entries/en/haberdashery)
