@@ -17,3 +17,4 @@ What does a usage statement look like? The Art Institute of Chicago offers [a pr
 
 > If you do decide to scrape our resources, please throttle your requests to no more than one per second and avoid running multiple scrapers in parallel.
 
+[<<< Previous](concept.md) | [Next >>>](SWAPI.md)
