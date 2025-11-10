@@ -52,11 +52,11 @@ What do we do with the `image_id`? The [Art Institute's image API documentation]
 
 We now have the pieces we need to retrieve the image. Just replace the `{identifier}` in the template URL with the our `image_id` value. [Try it in your browser](https://www.artic.edu/iiif/2/e8e67721-bbb1-d007-82bd-c430ea73db70/full/843,/0/default.jpg). 
 
-The last step is to use `curl` to download an image. Now is the time to go back to your command line and enter the following command:
+The last step is to use `curl` to download the image. Go back to your command line and enter the following command:
 
 > `curl -o image.jpg https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg`
 
-Remember that the `-o` specifies that `curl` should "output" to a file, which we have chosen to name `image.jpg`. Next, we simply supply the API request for the image. You should now see an `image.jpg` file in your folder.
+Remember, the `-o` flag specifies that `curl` should "output" to a file, which we have chosen to name `image.jpg`. Next, we simply supply the API request for the image. You should now see an `image.jpg` file in your folder.
 
 
 
