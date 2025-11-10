@@ -9,3 +9,5 @@ For example, suppose you are studying paintings from the 19th century. You know 
 With an API, you could simply construct an **API request** that says, in essence, "Please give me the artist name, date of creation, genre, filename, and download link for all paintings made in France between 1860 and 1890." All the information would come back in a systematic way, and you would be only one step away from downloading the images themselves. Better still: if you later changed the criteria -- all Belgium paintings between 1870 and 1900, for example -- you would only need to make a small change to your API request and be on your way.
 
 Let's start by looking at how API requests can be in your browser, using a resource called the Star Wars API.
+
+[Next >>>](etiquette.md)
