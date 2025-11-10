@@ -17,6 +17,18 @@ From here, we can start playing with data!
 
 ## Dictionary Download
 
+The syntax for `curl` is `curl [options] [url]`, where `[options]` stands in for any optional flags that modify how `curl` behaves, and `[url]` is, in our case, the address for our API request. We will look at one of the optional flags in a moment, but first let's make a very basic API call to the Dictionary API by copying and pasting the below code into the command line:  
+
+`curl https://api.dictionaryapi.dev/api/v2/entries/en/serendipity`
+
+Once the command runs, we have made a successful API call using `curl`, and our output is JSON data defining the word *serendipity*. This is great, but in most cases we don't just want to see the results of an API request; we want to save those results to work with later. 
+
+### The *-o* flag
+
+In order to save our API response, we will add the optional flag *-o* to our command and specify the file name where we want it to be saved. Our syntax is now `curl -o [filename] [url]`. Remember that we should have moved to a good folder in which to experiment earlier (e.g., `Downloads` or `Desktop`). Unless we specify otherwise, any files we save in the command line using `curl -o` will be saved to that same folder. Try this:  
+
+`curl -o serendipity.json https://api.dictionaryapi.dev/api/v2/entries/en/serendipity`  
+
 ## Image Download
 
 Let's say we wanted to download an image of a cat to our computer, and we want to make sure it's an image in the public domain so we can use it for whatever purpose. Remember what we might do?
