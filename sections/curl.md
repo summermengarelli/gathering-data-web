@@ -58,5 +58,6 @@ The last step is to use `curl` to download the image. Go back to your command li
 
 Remember, the `-o` flag specifies that `curl` should "output" to a file, which we have chosen to name `image.jpg`. Next, we simply supply the API request for the image. You should now see an `image.jpg` file in your folder.
 
+[<<< Previous](SWAPI.md) | [Next >>>](browsing-art.md)
 
 
