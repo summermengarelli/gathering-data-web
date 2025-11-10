@@ -16,4 +16,6 @@ When we enter that URL in the browser, we can look for an image `title` that we 
 
 If we navigate to this link, [https://api.artic.edu/api/v1/artworks/51719](https://api.artic.edu/api/v1/artworks/51719), we find a *lot* of information. All of this structured data can be used for analysis later on, especially if we capture the data on many different artworks. We can also use the information here to find an image file to see the artwork, as we shall see shortly. 
 
-But how do we capture this data for usage on our own computers?
+But how do we capture this data for usage on our own computers?  
+
+[<<< Previous](curl.md)
