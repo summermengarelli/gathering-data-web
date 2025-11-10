@@ -53,3 +53,5 @@ JSON, or JavaScript Object Notation, is "a lightweight format for storing and tr
 Now that we know how JSON works, let's make another API call in-browser. We'll use [Dictionary API](https://dictionaryapi.dev/), a free API that pulls from Wikimedia and Wiktionary to provide dictionary and pronunciation information. To make a GET request, we need to structure a URL following this template: `https://api.dictionaryapi.dev/api/v2/entries/en/<word>`. Feel free to try it yourself by copying and pasting that address and replacing `<word>` with whatever word you would like to look up. When your result loads, click on the `Pretty-print` box to format the JSON for better readability.
 
 >**EXAMPLE REQUEST**: [haberdashery](https://api.dictionaryapi.dev/api/v2/entries/en/haberdashery)
+
+[<<< Previous](etiquette.md) | [Next >>>](curl.md)
