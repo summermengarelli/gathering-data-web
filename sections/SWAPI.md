@@ -9,7 +9,7 @@ Perhaps the simplest way to make a request to a public API is to use your web br
 
 ## The Star Wars API
 
-The Star Wars API, or [SWAPI](https://swapi.dev/about), is "the world's first quantified and programmatically-formatted set of Star Wars data." It provides several endpoints to access data about the Star Wars movies, including People, Films, Species, Starships, Vehicles and Planets—and that data is provided in JSON format. 
+The Star Wars API, or [SWAPI](https://swapi.dev/about), is "the world's first quantified and programmatically-formatted set of Star Wars data." It provides several endpoints, or points of entry, to access data about the Star Wars movies, including People, Films, Species, Starships, Vehicles and Planets—and that data is provided in JSON format. 
 
 Here are several of the SWAPI endpoints:  
 + **Species**: [https://swapi.dev/api/species/](https://swapi.dev/api/species/)
