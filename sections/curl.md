@@ -9,7 +9,7 @@ Using APIs from your browser is convenient for quick browsing, but APIs can be a
 > [!CAUTION]
 > Windows contains another command line called Powershell, which shares some syntax with Command Prompt **but not all**. Notable `curl` works differently! If you use Powershell, you will need to enter `curl.exe` instead of just `curl` to avoid an error.
 
-Your computer's command line usually opens to your user folder. You can see all the files and folders in your current location with a simple command. On Mac and Linux, the `ls` command will show you everything in this current folder, and on Windows, `dir` will do the same. You simply enter `'ls` or `dir` and press enter. 
+Your computer's command line usually opens to your user folder. You can see all the files and folders in your current location with a simple command. On Mac and Linux, the `ls` command will show you everything in this current folder, and on Windows, `dir` will do the same. You simply enter `ls` or `dir` and press enter. 
 
 It is a good idea to "move" into folder where you can experiment, such as `Downloads` or  `Desktop`.In order to move locations, type `cd folder-name` where `folder-name` is the folder you want to be in. For example, we might enter `cd Downloads` then press enter to move into Downloads. 
 
