@@ -19,3 +19,32 @@ From here, we can start playing with data!
 
 ## Image Download
 
+Let's say we wanted to download an image of a cat to our computer, and we want to make sure it's an image in the public domain so we can use it for whatever purpose. Remember what we might do?
+
+Firts, we need to get construct an appropriate query. We can try:
+> https://api.artic.edu/api/v1/artworks/search?q=cats&query[term][is_public_domain]=true&limit=3
+
+So we do a search for the term "cats", restrict the query to items in the public domain, and limit our results list to 3 since we don't need a lot of options.
+
+![Results list](../images/cat-cushion-search.png)
+
+The first result I get, "Winter: Cat on a Cushion" looks promising. But how do I get more information about it? I look for the `api_link` value and plug that URL into my browser: [https://api.artic.edu/api/v1/artworks/51719](https://api.artic.edu/api/v1/artworks/51719).
+
+Here, we get a lot more data as expected -- in fact, we're maybe overwhelmed by it. Where do we find the image? A `ctrl+f` search for "image" yields an `image_id` field:
+
+![image_id field in the record](../images/cat-cushion-search.png)
+
+What do we do with the `image_id`? The [Art Institute's image API documentation](https://api.artic.edu/docs/#images) includes good instructions, including this basic template for most use cases:
+
+> https://www.artic.edu/iiif/2/{identifier}/full/843,/0/default.jpg
+
+We now have the pieces we need to retrieve the image. Just replace the `{identifier}` in the template URL with the our `image_id` value. [Try it in your browser](https://www.artic.edu/iiif/2/e8e67721-bbb1-d007-82bd-c430ea73db70/full/843,/0/default.jpg). 
+
+The last step is to use `curl` to download an image. Now is the time to go back to your command and enter the following command:
+
+> `curl -o image.jpg https://www.artic.edu/iiif/2/2d484387-2509-5e8e-2c43-22f9981972eb/full/843,/0/default.jpg`
+
+The `-o` specifies that `curl` should "output" to a file, which we have chosen to name `image.jpg`. Next, we simply simply the API request for the image. You should now see an `image.jpg` file in your folder.
+
+
+
