@@ -1,3 +1,5 @@
+[<<< Previous](browsing-art.md)
+
 # Using APIs from the Command Line
 
 Using APIs from your browser is convenient for quick browsing, but APIs can be accessed by other methods that make it easier to download and work with data on your computer. A tool built for this purpose called `curl` (short for "Client URL") is built into all modern desktop operating systems. 
@@ -58,5 +60,5 @@ The last step is to use `curl` to download the image. Go back to your command li
 
 Remember, the `-o` flag specifies that `curl` should "output" to a file, which we have chosen to name `image.jpg`. Next, we simply supply the API request for the image. You should now see an `image.jpg` file in your folder.
 
-
-
+[<<< Previous](browsing-art.md)
+[<<< Return to Introduction](../README.md)

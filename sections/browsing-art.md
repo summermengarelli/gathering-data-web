@@ -1,3 +1,5 @@
+[<<< Previous](SWAPI.md) | [Next >>>](curl.md)
+
 # Using APIs to Access an Art Collection
 
 Using what we've learned about browser API calls and JSON, let's fetch some images and information about images from an art museum. The Art Institute of Chicago, made famous in the 1986 comedy *Ferris Bueller's Day Off*, offers a very handy and well document API service to patrons for free. [Their user-friendly introduction is here](https://api.artic.edu/docs/#quick-start).
@@ -17,3 +19,5 @@ When we enter that URL in the browser, we can look for an image `title` that we 
 If we navigate to this link, [https://api.artic.edu/api/v1/artworks/51719](https://api.artic.edu/api/v1/artworks/51719), we find a *lot* of information. All of this structured data can be used for analysis later on, especially if we capture the data on many different artworks. We can also use the information here to find an image file to see the artwork, as we shall see shortly. 
 
 But how do we capture this data for usage on our own computers?
+
+[<<< Previous](SWAPI.md) | [Next >>>](curl.md)

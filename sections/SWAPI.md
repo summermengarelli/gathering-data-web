@@ -1,3 +1,5 @@
+[<<< Previous](etiquette.md) | [Next >>>](browsing-art.md)
+
 # API Requests in Browser
 
 At its core, whenever we make any request to an API, we are performing a Hypertext Transfer Protocol (HTTP) request method: making a call to a web address and asking it permission to do something, like **POST** new information to the location or **DELETE** an item stored there. Most frequently, we are wanting to (and only have permission to!) **GET** information from the location. In our earlier example of the art museum API, when you make an API request to "Please give me the artist name, date of creation, genre, filename, and download link for all paintings made in France between 1860 and 1890," you are making a GET request.  
@@ -53,3 +55,7 @@ JSON, or JavaScript Object Notation, is "a lightweight format for storing and tr
 Now that we know how JSON works, let's make another API call in-browser. We'll use [Dictionary API](https://dictionaryapi.dev/), a free API that pulls from Wikimedia and Wiktionary to provide dictionary and pronunciation information. To make a GET request, we need to structure a URL following this template: `https://api.dictionaryapi.dev/api/v2/entries/en/<word>`. Feel free to try it yourself by copying and pasting that address and replacing `<word>` with whatever word you would like to look up. When your result loads, click on the `Pretty-print` box to format the JSON for better readability.
 
 >**EXAMPLE REQUEST**: [haberdashery](https://api.dictionaryapi.dev/api/v2/entries/en/haberdashery)
+
+Next, let's look at using browser API calls to analyze art.
+
+[<<< Previous](etiquette.md) | [Next >>>](browsing-art.md)

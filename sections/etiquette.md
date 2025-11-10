@@ -1,3 +1,5 @@
+[<<< Previous](concept.md) | [Next >>>](SWAPI.md)
+
 # API Etiquette
 
 APIs are powerful and helpful tools. It is important to follow some general principals when using them to avoid potential problems with the API provider and possibly your own colleagues.
@@ -17,3 +19,4 @@ What does a usage statement look like? The Art Institute of Chicago offers [a pr
 
 > If you do decide to scrape our resources, please throttle your requests to no more than one per second and avoid running multiple scrapers in parallel.
 
+[<<< Previous](concept.md) | [Next >>>](SWAPI.md)
