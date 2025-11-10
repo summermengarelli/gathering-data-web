@@ -2,7 +2,7 @@
 
 # Using APIs to Access an Art Collection
 
-Using what we've learned about browser API calls and JSON, let's fetch some images and information about images from an art museum. The Art Institute of Chicago, made famous in the 1986 comedy *Ferris Bueller's Day Off*, offers a very handy and well document API service to patrons for free. [Their user-friendly introduction is here](https://api.artic.edu/docs/#quick-start).
+Using what we've learned about browser API calls and JSON, let's fetch some images and information about images from an art museum. The Art Institute of Chicago, made famous in the 1986 comedy *Ferris Bueller's Day Off*, offers a very handy and well documented API service to patrons for free. [Their user-friendly introduction is here](https://api.artic.edu/docs/#quick-start).
 
 First, let's follow their suggest to access the `/artworks/` endpoint containing all their published artworks by clicking here: [https://api.artic.edu/api/v1/artworks](https://api.artic.edu/api/v1/artworks). What do you notice?
 
