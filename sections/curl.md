@@ -40,7 +40,7 @@ So we do a search for the term "cats", restrict the query to items in the public
 
 ![Results list](../images/cat-cushion-search.png)
 
-The first result I get, "Winter: Cat on a Cushion" looks promising. But how do I get more information about it? I look for the `api_link` value and plug that URL into my browser: [https://api.artic.edu/api/v1/artworks/51719](https://api.artic.edu/api/v1/artworks/51719).
+Let's go with this result from earlier in the lesson, "Winter: Cat on a Cushion." Remember how to get more information about it? Look for the `api_link` value and plug that URL into the browser: [https://api.artic.edu/api/v1/artworks/51719](https://api.artic.edu/api/v1/artworks/51719).
 
 Here, we get a lot more data as expected -- in fact, we're maybe overwhelmed by it. Where do we find the image? A `ctrl+f` search for "image" yields an `image_id` field:
 
