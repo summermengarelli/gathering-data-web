@@ -35,7 +35,7 @@ In order to save our API response, we will add the optional flag *-o* to our com
 
 Let's say we wanted to download an image of a cat to our computer, and we want to make sure it's an image in the public domain so we can use it for whatever purpose. Remember what we might do?
 
-Firts, we need to get construct an appropriate query. We can try:
+First, we need to get construct an appropriate query. We can try:
 > https://api.artic.edu/api/v1/artworks/search?q=cats&query[term][is_public_domain]=true&limit=3
 
 So we do a search for the term "cats", restrict the query to items in the public domain, and limit our results list to 3 since we don't need a lot of options.
