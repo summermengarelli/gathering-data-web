@@ -19,4 +19,6 @@ What does a usage statement look like? The Art Institute of Chicago offers [a pr
 
 > If you do decide to scrape our resources, please throttle your requests to no more than one per second and avoid running multiple scrapers in parallel.
 
+Having covered the etiquette of API usage, let's get started by looking at how API requests can be made in your browser, using a resource called the Star Wars API.
+
 [<<< Previous](concept.md) | [Next >>>](SWAPI.md)
